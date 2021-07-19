@@ -43,10 +43,21 @@ cat version (debería poder ver la versión en consola)
 git push 
 ```
 
-NOTA: Para cambiar la version MAJOR:
+## NOTA1: 
+
+Para cambiar la version MAJOR:
 
 ```
 sudo nano .git/hooks/pre-commit
 ```
+
 Cambie el valor de la variable major_version="3"
+
 Guarde
+
+## NOTA2:
+Considere renombrar la rama donde hara los commits usualmente dentro del archivo pre-commit
+
+```
+git log <branch_name> --pretty=oneline | wc -l > version
+```
