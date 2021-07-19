@@ -24,13 +24,17 @@ echo "v$major_version.$minor_version" > version
 git add .
 
 ```
+
+Guarde
+
+
 agregue permisons de ejecucion al archivo 
 
 ```
 sudo chmod +x pre-commit
 ```
 
-Guarde
+Haga un push a GitHub
 
 ```
 sudo git add .
@@ -38,6 +42,7 @@ sudo git commit -m <yourtag>
 cat version (debería poder ver la versión en consola)
 git push 
 ```
+
 NOTA: Para cambiar la version MAJOR:
 
 ```
