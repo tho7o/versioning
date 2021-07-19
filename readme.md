@@ -24,6 +24,11 @@ echo "v$major_version.$minor_version" > version
 git add .
 
 ```
+agregue permisons de ejecucion al archivo 
+
+```
+sudo chmod +x pre-commit
+```
 
 Guarde
 
